@@ -9,7 +9,7 @@ public class Driver {
 		
 		
 		
-		
+		System.exit(0);
 	}
 	
 	
@@ -44,5 +44,11 @@ public class Driver {
 	    /* Current os version */
 	    System.out.println("Operating Version: " + 
 	        System.getProperty("os.version"));
+	    
+	    /* Current os version */
+	    System.out.println("Architecture of THe OS: " + 
+	        System.getProperty("os.arch"));
+	    
+	    
 	}
 }
