@@ -1,5 +1,5 @@
 package com.iron.inputs;
 
-public class SensorManager {
+public class InputManager {
 
 }
